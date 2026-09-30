@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asmaa AI</string>
+    <string name="store_short_description">معلّمة عربية تعمل بدون إنترنت. تعلم العربية مع خصوصية أولا.</string>
+    <string name="server_notification_title">Asmaa AI Server Running</string>
+    <string name="server_notification_text">مشاركة تعلم العربية مع الطلاب المتصلين</string>
+
+    <!-- Notification channels -->
+    <string name="notif_channel_announcements">الإعلانات</string>
+    <string name="notif_channel_announcements_desc">أخبار وتحديثات الميزات من إكترا</string>
+    <string name="notif_channel_updates">تحديثات التطبيق</string>
+    <string name="notif_channel_updates_desc">إشعارات عند توفر إصدار جديد من التطبيق</string>
+    <string name="notif_channel_tips">نصائح التعلم</string>
+    <string name="notif_channel_tips_desc">نصائح واقتراحات يومية للتعلم</string>
+    <string name="server_channel_name">خادم الصف</string>
+    <string name="server_channel_desc">يبقي خادم المعلمة يعمل للطلاب الآخرين</string>
+
+    <!-- Common -->
+    <string name="action_back">رجوع</string>
+
+    <!-- Sign in / profile -->
+    <string name="welcome_title">مرحبًا بك في أسماء AI</string>
+    <string name="welcome_subtitle">معلمتك الشخصية بالذكاء الاصطناعي</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="email_address">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="have_account_sign_in">لديك حساب بالفعل؟ سجّل الدخول</string>
+    <string name="no_account_create">ليس لديك حساب؟ أنشئ حسابًا</string>
+    <string name="or_divider">أو</string>
+    <string name="sign_in_with_google">تسجيل الدخول باستخدام Google</string>
+    <string name="google_sign_in_failed">تعذّر تسجيل الدخول باستخدام Google</string>
+    <string name="profile_form_title">أخبرنا عن نفسك</string>
+    <string name="profile_form_subtitle">يساعد هذا أسماء على تخصيص تعلمك</string>
+    <string name="your_name">اسمك</string>
+    <string name="country">الدولة</string>
+    <string name="grade_optional">الصف / المستوى الدراسي (اختياري)</string>
+    <string name="grade">الصف / المستوى الدراسي</string>
+    <string name="get_started">لنبدأ</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="save_changes">حفظ التغييرات</string>
+
+    <!-- Privacy consent -->
+    <string name="privacy_title">خصوصيتك تهمنا</string>
+    <string name="privacy_we_collect">ما الذي نجمعه:</string>
+    <string name="privacy_collect_stats">إحصاءات جلسات المحادثة (عدد الرسائل وأوقات الاستجابة)</string>
+    <string name="privacy_collect_subjects">تفضيلات المواد وأنماط الاستخدام</string>
+    <string name="privacy_collect_device">طراز الجهاز لتحسين الأداء</string>
+    <string name="privacy_collect_crashes">تقارير الأعطال لإصلاح المشكلات</string>
+    <string name="privacy_we_dont_collect">ما الذي لا نجمعه:</string>
+    <string name="privacy_no_messages">رسائلك أو أسئلتك الفعلية</string>
+    <string name="privacy_no_personal">الصور أو جهات الاتصال أو الملفات الشخصية</string>
+    <string name="privacy_no_location">بيانات الموقع</string>
+    <string name="privacy_your_rights">حقوقك:</string>
+    <string name="privacy_right_export">صدّر جميع بياناتك في أي وقت من الإعدادات</string>
+    <string name="privacy_right_delete">احذف جميع بياناتك السحابية في أي وقت من الإعدادات</string>
+    <string name="privacy_right_offline">يعمل التطبيق بالكامل دون إنترنت إذا رفضت</string>
+    <string name="privacy_right_change">يمكنك تغيير هذا الاختيار لاحقًا من الإعدادات</string>
+    <string name="privacy_compliance">متوافق مع قانون حماية البيانات الشخصية الرقمية في الهند (DPDP) واللائحة الأوروبية (GDPR).</string>
+    <string name="privacy_feedback_title">ساعدنا في تحسين الإجابات (اختياري)</string>
+    <string name="privacy_feedback_body">عند الضغط على عدم الإعجاب، سنسألك إن كنت تريد إرسال السؤال والإجابة لفريق أسماء لتحسين الجودة. بدون بيانات شخصية.</string>
+    <string name="privacy_accept">موافق ومتابعة</string>
+    <string name="privacy_decline">المتابعة بدون تحليلات</string>
+
+    <!-- Model download -->
+    <string name="download_brand">أسماء AI من إكترا للتعليم</string>
+    <string name="download_setting_up">جارٍ تجهيز أسماء AI</string>
+    <string name="download_tagline">رفيقتك لتعلّم العربية من إكترا للتعليم</string>
+    <string name="download_verifying">جارٍ التحقق من محرك الذكاء (فحص أمني)...</string>
+    <string name="download_starting">جارٍ بدء التنزيل...</string>
+    <string name="download_size_progress">%1$d م.ب / %2$d م.ب</string>
+    <string name="download_size_done">تم تنزيل %1$d م.ب</string>
+    <string name="download_state_integrity">فشل الفحص الأمني</string>
+    <string name="download_state_paused">التنزيل متوقف مؤقتًا</string>
+    <string name="download_state_downloading">جارٍ تنزيل النموذج</string>
+    <string name="download_integrity_body">ملف النموذج تالف أو معدَّل. جارٍ إعادة التنزيل تلقائيًا...</string>
+    <string name="download_paused_body">تم حفظ تقدمك. اضغط إعادة المحاولة للمتابعة من حيث توقفت.</string>
+    <string name="download_retry">🔄  إعادة محاولة التنزيل</string>
+    <string name="download_background_note">✅ يستمر التنزيل في الخلفية.\nيمكنك مغادرة التطبيق بأمان.</string>
+    <string name="worker_model_ready">النموذج جاهز!</string>
+    <string name="worker_download_failed">فشل التنزيل: %1$s</string>
+    <string name="worker_network_error">خطأ في الشبكة</string>
+    <string name="worker_downloading">جارٍ تنزيل عقل الذكاء الاصطناعي...</string>
+    <string name="worker_download_complete">اكتمل التنزيل!</string>
+
+    <!-- Host mode (classroom hotspot server) -->
+    <string name="host_mode">وضع الاستضافة</string>
+    <string name="host_intro">شارك ذكاء هذا الجهاز مع الطلاب القريبين. فعّل نقطة الاتصال ثم دعهم ينضمون وبعدها شغّل الخادم.</string>
+    <string name="host_step1_title">تفعيل نقطة اتصال Wi-Fi</string>
+    <string name="host_step1_subtitle">افتح إعدادات النظام لتشغيل نقطة الاتصال</string>
+    <string name="host_open_hotspot">📶  فتح إعدادات نقطة الاتصال</string>
+    <string name="host_step2_title">مشاركة الشبكة مع الطلاب</string>
+    <string name="host_step2_subtitle">يتصل الطلاب بنقطة الاتصال لاستخدام أسماء</string>
+    <string name="host_hotspot_name_hint">اسم نقطة الاتصال غالبًا يكون \"%1$s\" أو اسمًا مشابهًا. يمكن للطلاب أيضًا الاتصال يدويًا من إعدادات الـWi-Fi.</string>
+    <string name="host_change_hotspot">📋  عرض/تغيير اسم نقطة الاتصال وكلمة المرور</string>
+    <string name="host_start_server">تشغيل خادم أسماء</string>
+    <string name="host_server_loading">جارٍ تحميل نموذج الذكاء…</string>
+    <string name="host_server_running">الخادم يعمل ويمكن للطلاب الاتصال</string>
+    <string name="host_server_idle">يحمّل النموذج ويبدأ الخدمة</string>
+    <string name="host_scan_qr">الطلاب: امسحوا الرمز لفتح أسماء</string>
+    <string name="host_qr_description">رمز QR للاتصال بخادم الصف</string>
+    <string name="host_server_address">عنوان الخادم</string>
+
+    <!-- Settings -->
+    <string name="settings_guest">ضيف</string>
+    <string name="settings_tts_unavailable">إعدادات النطق غير متاحة على هذا الجهاز</string>
+    <string name="settings_export_subject">تصدير بيانات %1$s</string>
+    <string name="settings_export_chooser">تصدير بيانات المحادثات (.zip)</string>
+    <string name="settings_export_failed">تعذر إنشاء ملف التصدير</string>
+    <string name="settings_delete_subject">طلب حذف البيانات - %1$s</string>
+    <string name="settings_delete_body">يرجى تنفيذ طلب حذف بياناتي السحابية.\n\nالتطبيق: %1$s\nوقت الطلب: %2$s\nمعرّف المستخدم: %3$s\nالاسم: %4$s\nالهاتف: %5$s\n\nأؤكد رغبتي في حذف جميع بياناتي المتزامنة سحابياً.</string>
+    <string name="settings_unknown">غير معروف</string>
+    <string name="settings_delete_chooser">إرسال طلب الحذف عبر البريد</string>
+    <string name="settings_no_email_app">لا يوجد تطبيق بريد إلكتروني</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_pending_sync">⏳ %1$d جلسة بانتظار المزامنة</string>
+    <string name="settings_section_account">الحساب والتفضيلات</string>
+    <string name="settings_profile">الملف الشخصي</string>
+    <string name="settings_profile_sub">إدارة البيانات الشخصية</string>
+    <string name="settings_notifications">إعدادات الإشعارات</string>
+    <string name="settings_notifications_sub">تخصيص التنبيهات والأصوات</string>
+    <string name="settings_section_assistant">المساعد</string>
+    <string name="settings_voice">صوت أسماء</string>
+    <string name="settings_voice_sub">إعدادات الصوت والسرعة في النظام</string>
+    <string name="settings_accessibility">إمكانية الوصول</string>
+    <string name="settings_accessibility_sub">حجم النص والعرض و TalkBack</string>
+    <string name="settings_host_mode_sub">مشاركة المساعد مع الطلاب القريبين</string>
+    <string name="settings_section_data">البيانات والخصوصية</string>
+    <string name="settings_export">تصدير البيانات</string>
+    <string name="settings_export_sub">تنزيل سجل المحادثات كاملاً بصيغة JSON</string>
+    <string name="settings_delete_cloud">حذف البيانات السحابية</string>
+    <string name="settings_delete_cloud_sub">إزالة جميع البيانات المتزامنة من الخوادم</string>
+    <string name="settings_log_out">تسجيل الخروج</string>
+    <string name="settings_version_footer">أسماء v%1$s • إكترة</string>
+    <string name="nav_chat">الدردشة</string>
+    <string name="nav_home">الرئيسية</string>
+
+    <!-- Chat -->
+    <string name="chat_update_required">التحديث مطلوب</string>
+    <string name="chat_update_available">تحديث متوفر</string>
+    <string name="chat_update_body">الإصدار %1$s متاح (لديك %2$s)</string>
+    <string name="chat_update_action">تحديث</string>
+    <string name="chat_save">حفظ</string>
+    <string name="chat_copy">نسخ</string>
+    <string name="chat_save_needs_question">لا يمكن الحفظ بدون سؤال</string>
+    <string name="chat_saved">تم الحفظ على الجهاز</string>
+    <string name="chat_copied">تم النسخ</string>
+    <string name="chat_share_subject_default">إجابة من %1$s</string>
+    <string name="chat_share_answer">مشاركة الإجابة</string>
+    <string name="chat_tts_unavailable">تعذر تشغيل القراءة الصوتية</string>
+    <string name="chat_tts_not_ready">خدمة النطق غير جاهزة بعد</string>
+    <string name="chat_wait_for_answer">يرجى انتظار اكتمال الإجابة الحالية</string>
+    <string name="chat_will_send_when_ready">سيتم الإرسال تلقائيا عند اكتمال تحميل النموذج</string>
+    <string name="chat_conversations">المحادثات</string>
+    <string name="chat_new_chat">➕ محادثة جديدة</string>
+    <string name="chat_new_chat_created">تم إنشاء محادثة جديدة</string>
+    <string name="chat_library">📚 المحفوظات</string>
+    <string name="chat_no_conversations">لا توجد محادثات بعد</string>
+    <string name="chat_untitled">محادثة بدون عنوان</string>
+    <string name="chat_feedback_title">ساعدنا في تحسين أسماء؟</string>
+    <string name="chat_feedback_body">أرسل هذا السؤال والإجابة بشكل مجهول لفريق أسماء حتى نصلح مشكلات الإجابات الضعيفة. لا يتم إرسال أي معلومات شخصية.</string>
+    <string name="chat_feedback_sent">شكراً — تم إرسال الملاحظات</string>
+    <string name="chat_send">إرسال</string>
+    <string name="chat_no_thanks">لا، شكراً</string>
+    <string name="chat_avatar_description">صورة %1$s</string>
+    <string name="chat_streak_suffix">%1$s  •  🔥 %2$d يوم</string>
+
+    <!-- Chat status -->
+    <string name="status_loading_model">جارٍ تحميل النموذج...</string>
+    <string name="status_ready">جاهز</string>
+    <string name="status_load_failed">فشل تحميل النموذج</string>
+    <string name="status_thinking">أفكر...</string>
+    <string name="status_typing">أكتب...</string>
+    <string name="status_no_response">لا يوجد رد، حاول مرة أخرى</string>
+    <string name="status_serving">الخادم على %1$s</string>
+    <string name="chat_server_started">تم تشغيل الخادم!\nاربط الأجهزة الأخرى على: http://%1$s:8080</string>
+    <string name="chat_server_stopped">تم إيقاف الخادم</string>
+    <string name="chat_input_hint_subject">اسأل في %1$s...</string>
+    <string name="chat_input_hint">اسأل أسماء في اللغات أو الرياضيات أو العلوم...</string>
+    <string name="chat_stop">إيقاف</string>
+    <string name="chat_daily_question">سؤال اليوم</string>
+    <string name="chat_ask">اسأل</string>
+    <string name="chat_close">إغلاق</string>
+    <string name="chat_library_title">المحفوظات</string>
+    <string name="chat_search">بحث</string>
+    <string name="chat_filter_all">الكل</string>
+    <string name="chat_library_empty">لا توجد إجابات محفوظة مطابقة لهذا الفلتر</string>
+    <string name="chat_q_prefix">س: %1$s</string>
+    <string name="chat_qa_share">س: %1$s\n\nج: %2$s</string>
+    <string name="chat_share">مشاركة</string>
+    <string name="chat_welcome_title">أهلاً! أنا أسماء</string>
+    <string name="chat_welcome_body">رفيقتك للتعلّم بالعربية: لغات، رياضيات، وعلوم بشرح مبسّط.</string>
+</resources>

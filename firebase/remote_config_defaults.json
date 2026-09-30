@@ -1,0 +1,73 @@
+{
+  "conditions": [],
+  "parameters": {},
+  "parameterGroups": {
+    "AI Model": {
+      "description": "Settings that control the on-device AI model behavior",
+      "parameters": {
+        "model_download_url": {
+          "defaultValue": {
+            "value": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf"
+          },
+          "description": "URL to download the AI model GGUF file. Change this to point to a different model without requiring an app update.",
+          "valueType": "STRING"
+        },
+        "system_prompt": {
+          "defaultValue": {
+            "value": "أنتِ أسماء، معلمة ودودة وصبورة للغة العربية والرياضيات والعلوم من إكترا. أجيبي بالعربية الفصحى افتراضيا. إذا طلب المتعلم الإنجليزية صراحة، قدمي العربية أولا ثم ترجمة إنجليزية قصيرة. في اللغة: اشرحي قاعدة واحدة مع مثال وتمرين قصير. في الرياضيات: قدمي خطوات مرتبة ثم النتيجة النهائية. في العلوم: عرّفي المفهوم ببساطة ثم اشرحي كيف يحدث مع مثال يومي. اجعلي الشرح عمليا وواضحا، وصححي الأخطاء بلطف، وإذا لم تكوني متأكدة فقولي ذلك بوضوح."
+          },
+          "description": "System prompt injected before user messages. Controls Asmaa's Arabic tutor personality and behavior.",
+          "valueType": "STRING"
+        },
+        "max_context_messages": {
+          "defaultValue": {
+            "value": "10"
+          },
+          "description": "Maximum number of previous messages included in the conversation context window. Higher values give better memory but are slower on low-RAM devices.",
+          "valueType": "NUMBER"
+        }
+      }
+    },
+    "App Updates": {
+      "description": "Controls app update prompts and maintenance banners shown to users",
+      "parameters": {
+        "min_app_version": {
+          "defaultValue": {
+            "value": "1.1.0"
+          },
+          "description": "Minimum required app version. When higher than the installed version, users see an Update Available banner. Major version bumps (1.x to 2.x) show a blocking Update Required dialog.",
+          "valueType": "STRING"
+        },
+        "maintenance_message": {
+          "defaultValue": {
+            "value": ""
+          },
+          "description": "If non-empty, shown as a banner in the app. Use for planned downtime or important announcements. Leave empty to hide.",
+          "valueType": "STRING"
+        }
+      }
+    },
+    "Feature Flags": {
+      "description": "Toggle features on or off without an app update",
+      "parameters": {
+        "hotspot_feature_enabled": {
+          "defaultValue": {
+            "value": "true"
+          },
+          "description": "Feature flag: enables the multi-device hotspot/server mode. Set to false to hide the server button in chat.",
+          "valueType": "BOOLEAN"
+        },
+        "analytics_sample_rate": {
+          "defaultValue": {
+            "value": "100"
+          },
+          "description": "Percentage of users (0-100) for whom analytics events are collected. Use to reduce costs at scale.",
+          "valueType": "NUMBER"
+        }
+      }
+    }
+  },
+  "version": {
+    "description": "Asmaa AI v1.0.0 — Arabic learning defaults with AI model settings, update prompts, and feature flags"
+  }
+}

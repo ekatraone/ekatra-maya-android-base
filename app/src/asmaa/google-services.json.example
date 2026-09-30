@@ -1,0 +1,9 @@
+{
+  "_comment": "Replace this file with your own Firebase config as app/src/maya/google-services.json (and app/src/asmaa/google-services.json for the Asmaa flavor). Create a Firebase project, add the Android app with package org.ekatra.alfred (Maya) or org.ekatra.asmaa (Asmaa), and download google-services.json from the Firebase console. The real file is gitignored.",
+  "project_info": { "project_number": "000000000000", "project_id": "your-firebase-project", "storage_bucket": "your-firebase-project.firebasestorage.app" },
+  "client": [{
+    "client_info": { "mobilesdk_app_id": "1:000000000000:android:0000000000000000", "android_client_info": { "package_name": "org.ekatra.asmaa" } },
+    "api_key": [{ "current_key": "YOUR_FIREBASE_API_KEY" }]
+  }],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English is the default; flavors override (asmaa/res/values/strings.xml). -->
+    <string name="app_name">Maya AI</string>
+    <string name="store_short_description">Offline AI tutor for students. Learn without internet. Privacy-first.</string>
+    <string name="server_notification_title">Maya AI Server Running</string>
+    <string name="server_notification_text">Sharing knowledge with connected students</string>
+
+    <!-- Notification channels -->
+    <string name="notif_channel_announcements">Announcements</string>
+    <string name="notif_channel_announcements_desc">News and feature updates from Ekatra</string>
+    <string name="notif_channel_updates">App Updates</string>
+    <string name="notif_channel_updates_desc">Notifications when a new version of the app is available</string>
+    <string name="notif_channel_tips">Learning Tips</string>
+    <string name="notif_channel_tips_desc">Daily learning tips and suggestions</string>
+    <string name="server_channel_name">Classroom Server</string>
+    <string name="server_channel_desc">Keeps the tutor server running for other students</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+
+    <!-- Sign in / profile -->
+    <string name="welcome_title">Welcome to Maya AI</string>
+    <string name="welcome_subtitle">Your personal AI tutor</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="have_account_sign_in">Already have an account? Sign In</string>
+    <string name="no_account_create">Don\'t have an account? Create One</string>
+    <string name="or_divider">or</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="google_sign_in_failed">Google sign-in failed</string>
+    <string name="profile_form_title">Tell us about yourself</string>
+    <string name="profile_form_subtitle">This helps Maya personalize your learning</string>
+    <string name="your_name">Your name</string>
+    <string name="country">Country</string>
+    <string name="grade_optional">Grade / Education level (optional)</string>
+    <string name="grade">Grade / Education level</string>
+    <string name="get_started">Get Started →</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="email">Email</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!-- Privacy consent -->
+    <string name="privacy_title">Your Privacy Matters</string>
+    <string name="privacy_we_collect">What we collect:</string>
+    <string name="privacy_collect_stats">Chat session statistics (message counts, response times)</string>
+    <string name="privacy_collect_subjects">Subject preferences and usage patterns</string>
+    <string name="privacy_collect_device">Device model for performance optimization</string>
+    <string name="privacy_collect_crashes">Crash reports to fix bugs</string>
+    <string name="privacy_we_dont_collect">What we DON\'T collect:</string>
+    <string name="privacy_no_messages">Your actual chat messages or questions</string>
+    <string name="privacy_no_personal">Personal photos, contacts, or files</string>
+    <string name="privacy_no_location">Location data</string>
+    <string name="privacy_your_rights">Your rights:</string>
+    <string name="privacy_right_export">Export all your data anytime from Settings</string>
+    <string name="privacy_right_delete">Delete all cloud data anytime from Settings</string>
+    <string name="privacy_right_offline">The app works fully offline if you decline</string>
+    <string name="privacy_right_change">You can change this choice later in Settings</string>
+    <string name="privacy_compliance">Compliant with India\'s DPDP Act and GDPR.</string>
+    <string name="privacy_feedback_title">Help fix bad answers (optional)</string>
+    <string name="privacy_feedback_body">When you tap thumbs-down, we\'ll ask if you want to send that question + answer to the Maya team to help fix it. No personal info.</string>
+    <string name="privacy_accept">Accept &amp; Continue</string>
+    <string name="privacy_decline">Continue without analytics</string>
+
+    <!-- Model download -->
+    <string name="download_brand">Ekatra Learning\'s Maya AI</string>
+    <string name="download_setting_up">Setting up Maya AI</string>
+    <string name="download_tagline">Ekatra Learning\'s Maya AI Learning Companion</string>
+    <string name="download_verifying">Verifying AI Engine (Security Check)...</string>
+    <string name="download_starting">Starting download...</string>
+    <string name="download_size_progress">%1$dMB / %2$dMB</string>
+    <string name="download_size_done">%1$dMB downloaded</string>
+    <string name="download_state_integrity">Security Check Failed</string>
+    <string name="download_state_paused">Download Paused</string>
+    <string name="download_state_downloading">Downloading Model</string>
+    <string name="download_integrity_body">Model file is corrupted or tampered. Re-downloading automatically...</string>
+    <string name="download_paused_body">Your progress has been saved. Tap retry to continue from where you left off.</string>
+    <string name="download_retry">🔄  Retry Download</string>
+    <string name="download_background_note">✅ Download continues in the background.\nYou can leave the app safely.</string>
+    <string name="worker_model_ready">Model ready!</string>
+    <string name="worker_download_failed">Download failed: %1$s</string>
+    <string name="worker_network_error">Network error</string>
+    <string name="worker_downloading">Downloading AI brain...</string>
+    <string name="worker_download_complete">Download complete!</string>
+
+    <!-- Host mode (classroom hotspot server) -->
+    <string name="host_mode">Host Mode</string>
+    <string name="host_intro">Share this device\'s AI with nearby students. Enable your hotspot, let them join, then start the server.</string>
+    <string name="host_step1_title">Enable Wi-Fi Hotspot</string>
+    <string name="host_step1_subtitle">Open system settings to turn on your hotspot</string>
+    <string name="host_open_hotspot">📶  Open Hotspot Settings</string>
+    <string name="host_step2_title">Share Wi-Fi with Students</string>
+    <string name="host_step2_subtitle">Students connect to your hotspot to use Maya AI</string>
+    <string name="host_hotspot_name_hint">Your hotspot name is usually \"%1$s\" or similar. Students can also connect manually from their Wi-Fi settings.</string>
+    <string name="host_change_hotspot">📋  View / Change Hotspot Name &amp; Password</string>
+    <string name="host_start_server">Start Maya AI Server</string>
+    <string name="host_server_loading">Loading AI model…</string>
+    <string name="host_server_running">Running — students can connect</string>
+    <string name="host_server_idle">Loads the AI model &amp; starts serving</string>
+    <string name="host_scan_qr">Students: scan to open Maya AI</string>
+    <string name="host_qr_description">QR code to connect to the classroom server</string>
+    <string name="host_server_address">Server address</string>
+
+    <!-- Settings -->
+    <string name="settings_guest">Guest</string>
+    <string name="settings_tts_unavailable">Voice settings are not available on this device</string>
+    <string name="settings_export_subject">%1$s data export</string>
+    <string name="settings_export_chooser">Export chat data (.zip)</string>
+    <string name="settings_export_failed">Could not create the export file</string>
+    <string name="settings_delete_subject">Data deletion request - %1$s</string>
+    <string name="settings_delete_body">Please process my cloud data deletion request.\n\nApp: %1$s\nRequested at: %2$s\nUser ID: %3$s\nName: %4$s\nPhone: %5$s\n\nI confirm I want all my cloud-synced data deleted.</string>
+    <string name="settings_unknown">unknown</string>
+    <string name="settings_delete_chooser">Send deletion request by email</string>
+    <string name="settings_no_email_app">No email app found</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_pending_sync">⏳ %1$d session(s) waiting to sync</string>
+    <string name="settings_section_account">Account &amp; Preferences</string>
+    <string name="settings_profile">Profile</string>
+    <string name="settings_profile_sub">Manage personal information</string>
+    <string name="settings_notifications">Notification Settings</string>
+    <string name="settings_notifications_sub">Customize alerts and sounds</string>
+    <string name="settings_section_assistant">Assistant</string>
+    <string name="settings_voice">Maya\'s voice</string>
+    <string name="settings_voice_sub">System voice and speed settings</string>
+    <string name="settings_accessibility">Accessibility</string>
+    <string name="settings_accessibility_sub">Text size, display, and TalkBack</string>
+    <string name="settings_host_mode_sub">Share the tutor with nearby students</string>
+    <string name="settings_section_data">Data &amp; Privacy</string>
+    <string name="settings_export">Export Data</string>
+    <string name="settings_export_sub">Download your full chat history as JSON</string>
+    <string name="settings_delete_cloud">Delete Cloud Data</string>
+    <string name="settings_delete_cloud_sub">Remove all synced data from our servers</string>
+    <string name="settings_log_out">Log Out</string>
+    <string name="settings_version_footer">Maya v%1$s • Ekatra</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_home">Home</string>
+
+    <!-- Chat -->
+    <string name="chat_update_required">Update Required</string>
+    <string name="chat_update_available">Update Available</string>
+    <string name="chat_update_body">Version %1$s is available (you have %2$s)</string>
+    <string name="chat_update_action">Update</string>
+    <string name="chat_save">Save</string>
+    <string name="chat_copy">Copy</string>
+    <string name="chat_save_needs_question">Missing question to save</string>
+    <string name="chat_saved">Saved offline</string>
+    <string name="chat_copied">Copied</string>
+    <string name="chat_share_subject_default">%1$s answer</string>
+    <string name="chat_share_answer">Share answer</string>
+    <string name="chat_tts_unavailable">Could not start read-aloud</string>
+    <string name="chat_tts_not_ready">Text-to-speech is not ready yet</string>
+    <string name="chat_wait_for_answer">Please wait for the current answer to finish</string>
+    <string name="chat_will_send_when_ready">Will send automatically once the model finishes loading</string>
+    <string name="chat_conversations">Conversations</string>
+    <string name="chat_new_chat">➕ New chat</string>
+    <string name="chat_new_chat_created">New chat created</string>
+    <string name="chat_library">📚 Saved</string>
+    <string name="chat_no_conversations">No conversations yet</string>
+    <string name="chat_untitled">Untitled chat</string>
+    <string name="chat_feedback_title">Help improve Maya?</string>
+    <string name="chat_feedback_body">Send this question and answer anonymously to the Maya team so we can fix issues with bad responses. No personal info is sent.</string>
+    <string name="chat_feedback_sent">Thanks — feedback sent</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_no_thanks">No thanks</string>
+    <string name="chat_avatar_description">%1$s avatar</string>
+    <string name="chat_streak_suffix">%1$s  •  🔥 %2$d day(s)</string>
+
+    <!-- Chat status -->
+    <string name="status_loading_model">Loading model...</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_load_failed">Model load failed</string>
+    <string name="status_thinking">Thinking...</string>
+    <string name="status_typing">Typing...</string>
+    <string name="status_no_response">No response, try again</string>
+    <string name="status_serving">Server at %1$s</string>
+    <string name="chat_server_started">Server started!\nConnect other devices at: http://%1$s:8080</string>
+    <string name="chat_server_stopped">Server stopped</string>
+    <string name="chat_input_hint_subject">Ask about %1$s...</string>
+    <string name="chat_input_hint">Ask Maya about languages, math, or science...</string>
+    <string name="chat_stop">Stop</string>
+    <string name="chat_daily_question">Question of the day</string>
+    <string name="chat_ask">Ask</string>
+    <string name="chat_close">Close</string>
+    <string name="chat_library_title">Saved answers</string>
+    <string name="chat_search">Search</string>
+    <string name="chat_filter_all">All</string>
+    <string name="chat_library_empty">No saved answers match this filter</string>
+    <string name="chat_q_prefix">Q: %1$s</string>
+    <string name="chat_qa_share">Q: %1$s\n\nA: %2$s</string>
+    <string name="chat_share">Share</string>
+    <string name="chat_welcome_title">Hi! I\'m Maya</string>
+    <string name="chat_welcome_body">Your learning companion: languages, math, and science, explained simply.</string>
+</resources>

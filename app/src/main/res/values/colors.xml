@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ekatra_blue">#2563EB</color>
+    <color name="ekatra_blue_dark">#1E40AF</color>
+    <color name="ekatra_accent">#3B82F6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F0F4F8</color>
+</resources>
